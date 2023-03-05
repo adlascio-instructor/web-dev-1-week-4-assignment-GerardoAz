@@ -1,0 +1,29 @@
+body{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100vh;
+    margin: 0%;
+}
+
+.divForm{
+    float: right;
+    background-color: #191816;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divImage{
+    min-height: 100%;
+    float: left;
+    background: url(./images/side-image.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.Formbox{
+    display: flex;
+    background-color: #24221f;
+    width: 65%;
+    height: 65%;
+}
