@@ -118,3 +118,14 @@ button{
     margin-right: 20%;
     color: #ffc632;
 }
+
+
+@media screen and (max-width: 376px) {
+    div.divImage {
+        display: none
+    }
+    div.divForm{
+        min-width: 375px;
+     
+    }
+}
