@@ -22,8 +22,29 @@ body{
 }
 
 .Formbox{
-    display: flex;
     background-color: #24221f;
     width: 65%;
     height: 65%;
+    text-align: left;
+    padding-left: 2%;
+}
+.logo{
+    position: absolute;
+    width: 120px;
+    height: 65px;
+    padding-left: 2%;
+}
+
+h1{
+    display: inline-block;
+    padding-left: 2%;
+    margin-bottom: 0;
+}
+p{
+    margin-top: 1%;
+}
+.loginIcon{
+    display: inline-block;
+    max-width: 50px;
+    max-height: 50px;
 }
