@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@500&display=swap');
+
+
 body{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 100vh;
     margin: 0%;
+
 }
 
 .divForm{
@@ -26,7 +30,9 @@ body{
     width: 65%;
     height: 65%;
     text-align: left;
-    padding-left: 2%;
+    padding-left: 10%;
+    color: #afb6c2;
+
 }
 .logo{
     position: absolute;
@@ -39,12 +45,76 @@ h1{
     display: inline-block;
     padding-left: 2%;
     margin-bottom: 0;
+    margin-top:10%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #d4ccb6;
+    
 }
 p{
     margin-top: 1%;
+    margin-left: 4%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
 }
 .loginIcon{
     display: inline-block;
     max-width: 50px;
     max-height: 50px;
+    margin-left: 2%;
+}
+.form{
+    margin: 5%;
+    font-family: 'Poppins', sans-serif;
+}
+
+input{
+    margin: 1%;
+    width: 80%;
+    min-height: 2em;
+    background-color: #24221f;
+    border-color: #ffc632;
+    border-radius: 5%;
+}
+
+input[type=checkbox]{
+    width: 15px;
+    height: 15px;
+    margin-top: 5px;
+    display: inline-block;
+}
+label[for=remind-me]{
+    font-size: 10px;
+    display: inline-block;
+}
+
+.forgot-password{
+    display: inline-block;
+    text-align: end;
+    font-size: 12px;
+    margin-left: 25%;
+    color: #ffc632;
+    font-weight: 600;
+}
+
+a{
+    text-decoration: none;
+    color: #ffc632;
+}
+button{
+    width: 85%;
+    height: 30px;
+    background-color: #ffc632;
+    border-radius: 5%;
+    border: none;
+    color: #24221f;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+.dont-have{
+    text-align: center;
+    font-size: 12px;
+    margin-right: 20%;
+    color: #ffc632;
 }
